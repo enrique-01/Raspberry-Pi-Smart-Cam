@@ -1,4 +1,4 @@
-						###### Project Info
+							###### Project Info
 
 This code is for an AWS Raspberry Pi smart camera. The device detects motion then takes an image. It uses Amazon Rekognition in order to send an email notification with Image Classification labels using its deep learning technology. The device also uploads the image capture into an S3 bucket with a timestamp image name. 
 
