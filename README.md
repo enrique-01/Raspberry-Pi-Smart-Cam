@@ -1,4 +1,4 @@
-							Project Info
+												###### Project Info
 
 This code is for an AWS Raspberry Pi smart camera. The device detects motion then takes an image. It uses Amazon Rekognition in order to send an email notification with Image Classification labels using its deep learning technology. The device also uploads the image capture into an S3 bucket with a timestamp image name. 
 
@@ -26,7 +26,7 @@ PIR Sensor Ground Wire - Ground
 *Optional*
 The code was design to be implemented with a Green LED Diode conncected to GPIO 17 from a breadboard. This is optional and can be ommited from the code if need be. Omit lines 41 & 48 to do so.
 
-To-Dos
-Format JSON labels to only display top 1-3 if > than certain confidence threshold. 
-Format EMAIL process to make it cleaner ~include HTML formatting 
-Adjust PIR sensitivity (might need new sensor as cannot be done physically with this model)
+**To-Do's**
+-Format JSON labels to only display top 1-3 if > than certain confidence threshold. 
+-Format EMAIL process to make it cleaner ~include HTML formatting 
+-Adjust PIR sensitivity (might need new sensor as cannot be done physically with this model)
